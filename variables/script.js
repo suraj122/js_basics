@@ -1,31 +1,17 @@
-'use strict';
-
-// Variables
-let message;
-
-message = 'Hello!'  // store the string
-
-alert(message)  // Shows the value stored in variables
-
-let msg = 'Hello World'; // Defining a variable and assigning the value at the same time
-
-alert(msg);
-
-// defining multiple variables in the same lind
-let user = 'John', age = '32', msgs = 'Hello!';
-alert(user);
-
-var greeting = "Hello World";
-
-var saying;
-saying = greeting;
-alert(saying);
-alert(greeting);
+let admin; //Variable admin
+let name; //variable name
 
 
-// Constants
+name = "John"; //assigning a value John in name
+admin = name;
 
-const myBirthday = '18-07-1993';
-alert(myBirthday);
+alert(admin)  //output John
 
-// myBirthday = '1.1.1993';
+
+let ourPlanet = "Earth";
+let currentUser = "John";
+
+const BIRTHDAY = "18.07.1993";
+// const AGE = someCode(BIRTHDAY);
+
+// alert(AGE);
