@@ -1,37 +1,47 @@
 // ToString
 
-// let value = true;
-// alert(typeof value);
+let value = true;
+alert(typeof value);
 
-// value = String(value);
+value = String(value);
 
-// alert(value);
+alert(value);
 
-// // ToNumber
+// ToNumber
 
-// alert("6" / "2");
+alert("6" / "2");
 
-// let str = "123";
-// alert(typeof(str));
+let str = "123";
+alert(typeof(str));
 
-// let num = Number(str);
-// alert(typeof num);
+let num = Number(str);
+alert(typeof num);
 
-// let age = Number("age of sachin");
-// alert(age);
-// alert("   123   ");
-// alert (Number("123r"));
+let age = Number("age of sachin");
+alert(age);
+alert("   123   ");
+alert (Number("123r"));
 
-// alert(Number(true));
-// alert(Number(false));
+alert(Number(true));
+alert(Number(false));
 
-// alert(Number(null));
-// alert(Number(undefined));
+alert(Number(null));
+alert(Number(undefined));
 
-// alert(1 + "2");
+alert(1 + "2");
 
 // ToBoolean
 alert(Boolean(1));
 alert(Boolean("0"));
-alert(Boolean(" "));
+// alert(Boolean(" "));
+
+
+// Tasks
+alert("" + 1 + 0);
+alert(4 + 5 + "px");
+alert("4px" - 2);
+alert(" -9\n" + 5);
+alert(" -9\n" - 5);
+
+
 
